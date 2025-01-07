@@ -2,17 +2,17 @@
  
 Presenta: Haile Jacobo Meneses Moreno
 
-Introducción 
+**Introducción**
 
 Contamos con datos provenientes de una campaña de marketing directo de una institución bancaria de Portugal. Esta campaña está basada en llamadas telefónicas que tienen como objetivo que los clientes contraten un depósito a plazo fijo. 
 
 Estas llamadas con diversa duración y frecuencia obtenían como resultado en estos datos que el depósito era contratado o no (si/no), los resultados basados en frecuencia y duración obtienen diversos resultados según el momento de la temporada.
 
-Objetivo del Proyecto 
+**Objetivo del Proyecto** 
 
 Crear un instrumento que permita clasificar a los clientes y poder ayudar a crear una oferta de productos bancarios orientada en estos perfiles; buscando evitar un sesgo que limite la cantidad de clientes que puedan contratar servicios con la entidad.
 
-Metodología Utilizada
+**Metodología Utilizada**
 
 Segmentar a los clientes para encontrar grupos homogéneos en los datos me ha hecho decantarme por un algoritmo como K-Means Clustering; el objetivo es agrupar a los clientes según su perfil para identificar a qué grupo pertenece cada cliente, permitiendo a la entidad tomar la decisión de crear productos y estrategias orientados a cada perfil y así aumentar las contrataciones.
 
@@ -38,7 +38,9 @@ Esta métrica es muy eficiente desde el punto de vista computacional y funciona 
 
 Una vez entrenado y evaluado el modelo, utilizaré Streamlit para crear una APP donde podrán probarse con datos nuevos que se puede hacer a través de este enlace:
 
-Datos Disponibles
+[Bank Clustering](https://clusteringbanco-zinrsjan2krdhefbducbe7.streamlit.app/?utm_medium=social)
+
+**Datos Disponibles**
 
 Dentro del conjunto de datos relacionados con el perfil de los clientes disponibles para trabajar con este algoritmo se tienen:
 
@@ -51,7 +53,7 @@ Dentro del conjunto de datos relacionados con el perfil de los clientes disponib
 •	Préstamos personales (Sí/No)
 •	Deposito ((Sí/No)
 
-Responsabilidades Éticas y Sociales 
+**Responsabilidades Éticas y Sociales** 
 
 La principal meta de implementar un proyecto como el que se presenta, radica en evitar el sesgo y que la entidad se plantee ofrecer nuevos productos a más clientes que pueden ser diferenciados o excluidos si se implementa un modelo que los excluya por razones que tradicionalmente les puede hacer inviables a contratar un producto financiero (edad, estado civil, antecedentes bancarios, etc.). 
 Pero adicionalmente se tendrían en cuenta las siguientes consideraciones:
