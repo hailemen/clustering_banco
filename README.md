@@ -3,8 +3,9 @@
 Presenta: Haile Jacobo Meneses Moreno
 
 **Introducción**
+Este trabajo forma parte del Curso de Machine Learning Aplicado a los Negocios de a IT Academy de Barcelona Activa.
 
-Contamos con datos provenientes de una campaña de marketing directo de una institución bancaria de Portugal. Esta campaña está basada en llamadas telefónicas que tienen como objetivo que los clientes contraten un depósito a plazo fijo. 
+EL dataset con el que trabajo tiene datos provenientes de una campaña de marketing directo de una institución bancaria de Portugal que he denominado Joonie, Luna & Doria Banking Group. Esta campaña está basada en llamadas telefónicas que tienen como objetivo que los clientes contraten un depósito a plazo fijo. 
 
 Estas llamadas con diversa duración y frecuencia obtenían como resultado en estos datos que el depósito era contratado o no (si/no), los resultados basados en frecuencia y duración obtienen diversos resultados según el momento de la temporada.
 
@@ -22,7 +23,7 @@ Después de aplicar K-Means, cada cliente pertenece a uno de los clusters, y pod
 
 Una vez que tenemos los clientes agrupados en perfiles, la entidad financiera podría crear y ofrecer productos específicos a cada grupo.
 
-Para evaluar el rendimiento de este algoritmo se tiene que utilizar una métrica distinta a los modelos supervisados, ya que en el clustering no se tienen etiquetas de verdad.
+Para evaluar el rendimiento de este algoritmo se tiene que utilizar una métrica distinta a los modelos supervisados, ya que en el clustering no se utilizan etiquetas.
 
 En este caso utilizo Silhouette Score  o Índice de Silueta, que es una de las métricas más utilizadas para evaluar la calidad de un clustering. Mide qué tan cerca están los puntos dentro del mismo cluster y qué tan alejados están de los otros clusters. Toma un valor entre -1 y 1, donde:
 
@@ -30,19 +31,19 @@ En este caso utilizo Silhouette Score  o Índice de Silueta, que es una de las m
 •	Valor cercano a 0: Los puntos están en el borde de un cluster o mal agrupados.
 •	Valor negativo: Los puntos probablemente están asignados al cluster incorrecto.
 
-Adicionalmente, implementar otras métricas dará una visión más robusta de la calidad de la segmentación y garantizará que se puedan tomar mejores decisiones a la hora de aplicar las agrupaciones.
+Adicionalmente, poder implementar otras métricas dará una visión más robusta de la calidad de la segmentación y garantizará que se puedan tomar mejores decisiones a la hora de aplicar las agrupaciones.
 
 Una de las que utilizo es la Calinski-Harabasz Index, la cual mide la relación entre la dispersión dentro de los clusters y la dispersión entre los clusters. 
 
 Esta métrica es muy eficiente desde el punto de vista computacional y funciona bien para evaluar la calidad general del clustering. Permite medir qué tan "bueno" es el agrupamiento en términos de la dispersión dentro de los clusters y la separación entre ellos.
 
-Una vez entrenado y evaluado el modelo, utilizaré Streamlit para crear una APP donde podrán probarse con datos nuevos que se puede hacer a través de este enlace:
+Una vez entrenado y evaluado el modelo, utilizaré Streamlit para crear una APP para desplegar el modelo, donde podrán probarse con datos nuevos a través de este enlace:
 
 [Bank Clustering](https://clusteringbanco-zinrsjan2krdhefbducbe7.streamlit.app/?utm_medium=social)
 
 **Datos Disponibles**
 
-Dentro del conjunto de datos relacionados con el perfil de los clientes disponibles para trabajar con este algoritmo se tienen:
+Dentro del conjunto de datos relacionados con el perfil de los clientes disponibles para trabajar con este algoritmo utilizo:
 
 •	Edad
 •	Estado Civil
