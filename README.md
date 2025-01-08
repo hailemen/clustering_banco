@@ -45,14 +45,14 @@ Una vez entrenado y evaluado el modelo, utilizo Streamlit para crear una APP par
 
 Dentro del conjunto de datos relacionados con el perfil de los clientes disponibles para trabajar con este algoritmo utilizo:
 
-•	Edad
-•	Estado Civil
-•	Educación
-•	Trabajo
-•	Balance de cuenta bancaria
-•	Hipoteca (Sí/No)
-•	Préstamos personales (Sí/No)
-•	Deposito ((Sí/No)
+*	Edad
+*	Estado Civil
+*	Educación
+*	Trabajo
+*	Balance de cuenta bancaria
+*	Hipoteca (Sí/No)
+*	Préstamos personales (Sí/No)
+*	Deposito ((Sí/No)
 
 **Responsabilidades Éticas y Sociales** 
 
@@ -68,13 +68,13 @@ Pero adicionalmente se tendrían en cuenta las siguientes consideraciones:
 
 Archivos que contiene el repositorio:
 
-`HAILE_BANK_EDA.ipynb`: Análisis Exploratorio de los Datos
-`HAILE_BANK_KMEANS`: Entrenamiento y Prueba del Modelo
-`app_bank.py`: Archivo para desplegar el modelo con Streamlit
-`kmeans.pkl`: Modelo entrenado para utilizar en Streamlit
-`label_encoders.pkl`: Datos pertenecientes a la codificación de las variables categóricas del modelo
-`requeriments.txt`: Lista de dependencias necesarias para ejecutar el proyecto
-`scaler.pkl`: Escalador utilizado para normalizar los datos
+* `HAILE_BANK_EDA.ipynb`: Análisis Exploratorio de los Datos
+* `HAILE_BANK_KMEANS`: Entrenamiento y Prueba del Modelo
+* `app_bank.py`: Archivo para desplegar el modelo con Streamlit
+* `kmeans.pkl`: Modelo entrenado para utilizar en Streamlit
+* `label_encoders.pkl`: Datos pertenecientes a la codificación de las variables categóricas del modelo
+* `requeriments.txt`: Lista de dependencias necesarias para ejecutar el proyecto
+* `scaler.pkl`: Escalador utilizado para normalizar los datos
 
 **Resultado del Proyecto:**
 
