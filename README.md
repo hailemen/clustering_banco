@@ -55,7 +55,8 @@ Dentro del conjunto de datos relacionados con el perfil de los clientes disponib
 
 **Responsabilidades Éticas y Sociales** 
 
-La principal meta de implementar un proyecto como el que se presenta, radica en evitar el sesgo y que la entidad se plantee ofrecer nuevos productos a más clientes que pueden ser diferenciados o excluidos si se implementa un modelo que los excluya por razones que tradicionalmente les puede hacer inviables a contratar un producto financiero (edad, estado civil, antecedentes bancarios, etc.). 
+La principal meta de implementar un proyecto como el que se presenta, radica en evitar el sesgo y que la entidad se plantee ofrecer nuevos productos a más clientes que pueden ser diferenciados o excluidos si se implementa un modelo que los excluya por razones que tradicionalmente les puede hacer inviables a contratar un producto financiero (edad, estado civil, antecedentes bancarios, etc.).
+
 Pero adicionalmente se tendrían en cuenta las siguientes consideraciones:
 
 •	Evitar el sesgo y la discriminación mediante la revisión de los datos y el monitoreo de los clusters generados.
