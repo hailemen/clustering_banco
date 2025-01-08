@@ -3,6 +3,7 @@
 Presenta: Haile Jacobo Meneses Moreno
 
 **Introducción**
+
 Este trabajo forma parte del Curso de Machine Learning Aplicado al Negocio de la IT Academy de Barcelona Activa.
 
 EL dataset con el que trabajo tiene datos provenientes de una campaña de marketing directo de una institución bancaria de Portugal que he denominado Joonie, Luna & Doria Banking Group. Esta campaña está basada en llamadas telefónicas que tienen como objetivo que los clientes contraten un depósito a plazo fijo. 
