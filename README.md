@@ -37,7 +37,7 @@ Una de las que utilizo es la Calinski-Harabasz Index, la cual mide la relación 
 
 Esta métrica es muy eficiente desde el punto de vista computacional y funciona bien para evaluar la calidad general del clustering. Permite medir qué tan "bueno" es el agrupamiento en términos de la dispersión dentro de los clusters y la separación entre ellos.
 
-Una vez entrenado y evaluado el modelo, utilizaré Streamlit para crear una APP para desplegar el modelo, donde podrán probarse con datos nuevos a través de este enlace:
+Una vez entrenado y evaluado el modelo, utilizo Streamlit para crear una APP para desplegar el modelo, donde podrán probarse con datos nuevos a través de este enlace:
 
 [Bank Clustering](https://clusteringbanco-zinrsjan2krdhefbducbe7.streamlit.app/?utm_medium=social)
 
