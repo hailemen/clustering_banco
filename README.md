@@ -66,3 +66,19 @@ Pero adicionalmente se tendrían en cuenta las siguientes consideraciones:
 •	Fomentar la inclusión financiera en lugar de la exclusión, ofreciendo productos a un espectro más amplio de clientes.
 •	Garantizar la supervisión humana y la posibilidad de que los clientes apelen decisiones automatizadas.
 
+Archivos que contiene el repositorio:
+
+`HAILE_BANK_EDA.ipynb`: Análisis Exploratorio de los Datos
+`HAILE_BANK_KMEANS`: Entrenamiento y Prueba del Modelo
+`app_bank.py`: Archivo para desplegar el modelo con Streamlit
+`kmeans.pkl`: Modelo entrenado para utilizar en Streamlit
+`label_encoders.pkl`: Datos pertenecientes a la codificación de las variables categóricas del modelo
+`requeriments.txt`: Lista de dependencias necesarias para ejecutar el proyecto
+`scaler.pkl`: Escalador utilizado para normalizar los datos
+
+**Resultado del Proyecto:**
+
+La aplicación de este algoritmo de clustering sugiere una segmentación útil para personalizar la oferta de productos. Aunque los índices de calidad indican áreas de mejora (como la superposición de clusters), los perfiles identificados permiten diseñar estrategias enfocadas en las necesidades y comportamiento de cada grupo.
+
+Los clusters parecen estar razonablemente bien definidos, aunque se podría explorar el uso de diferentes características o técnicas de preprocesamiento para mejorar la definición de los clusters, además de considerar otros algoritmos de clustering para complementar el utilizado.
+
