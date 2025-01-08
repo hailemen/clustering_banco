@@ -3,7 +3,7 @@
 Presenta: Haile Jacobo Meneses Moreno
 
 **Introducción**
-Este trabajo forma parte del Curso de Machine Learning Aplicado a los Negocios de a IT Academy de Barcelona Activa.
+Este trabajo forma parte del Curso de Machine Learning Aplicado al Negocio de la IT Academy de Barcelona Activa.
 
 EL dataset con el que trabajo tiene datos provenientes de una campaña de marketing directo de una institución bancaria de Portugal que he denominado Joonie, Luna & Doria Banking Group. Esta campaña está basada en llamadas telefónicas que tienen como objetivo que los clientes contraten un depósito a plazo fijo. 
 
@@ -27,9 +27,9 @@ Para evaluar el rendimiento de este algoritmo se tiene que utilizar una métrica
 
 En este caso utilizo Silhouette Score  o Índice de Silueta, que es una de las métricas más utilizadas para evaluar la calidad de un clustering. Mide qué tan cerca están los puntos dentro del mismo cluster y qué tan alejados están de los otros clusters. Toma un valor entre -1 y 1, donde:
 
-•	Valor cercano a 1: Los puntos están bien agrupados y claramente separados de los otros clusters.
-•	Valor cercano a 0: Los puntos están en el borde de un cluster o mal agrupados.
-•	Valor negativo: Los puntos probablemente están asignados al cluster incorrecto.
+*	Valor cercano a 1: Los puntos están bien agrupados y claramente separados de los otros clusters.
+*	Valor cercano a 0: Los puntos están en el borde de un cluster o mal agrupados.
+*	Valor negativo: Los puntos probablemente están asignados al cluster incorrecto.
 
 Adicionalmente, poder implementar otras métricas dará una visión más robusta de la calidad de la segmentación y garantizará que se puedan tomar mejores decisiones a la hora de aplicar las agrupaciones.
 
@@ -60,11 +60,11 @@ La principal meta de implementar un proyecto como el que se presenta, radica en 
 
 Pero adicionalmente se tendrían en cuenta las siguientes consideraciones:
 
-•	Evitar el sesgo y la discriminación mediante la revisión de los datos y el monitoreo de los clusters generados.
-•	Ser transparentes sobre cómo se toman las decisiones y por qué se asignan productos a determinados grupos.
-•	Respetar la privacidad y los derechos de los clientes, manejando los datos de manera responsable y con su consentimiento.
-•	Fomentar la inclusión financiera en lugar de la exclusión, ofreciendo productos a un espectro más amplio de clientes.
-•	Garantizar la supervisión humana y la posibilidad de que los clientes apelen decisiones automatizadas.
+*	Evitar el sesgo y la discriminación mediante la revisión de los datos y el monitoreo de los clusters generados.
+*	Ser transparentes sobre cómo se toman las decisiones y por qué se asignan productos a determinados grupos.
+*	Respetar la privacidad y los derechos de los clientes, manejando los datos de manera responsable y con su consentimiento.
+*	Fomentar la inclusión financiera en lugar de la exclusión, ofreciendo productos a un espectro más amplio de clientes.
+*	Garantizar la supervisión humana y la posibilidad de que los clientes apelen decisiones automatizadas.
 
 Archivos que contiene el repositorio:
 
